@@ -27,6 +27,7 @@ The project is built using React and Redux, enabling efficient state management 
 
 - React
 - Redux
+- HTML5 Audio
 - Bootstrap (for styling)
 - Font Awesome (for icons)
 
