@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+## 25+5 Clock
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project involves building an interactive timer application that allows users to set both a session length and a break length. The timer alternates between these two phases, counting down from the session length and then the break length, while providing a visual display of the time remaining. The timer follows the [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) for time management.
 
-## Available Scripts
+### Project Description
 
-In the project directory, you can run:
+The 25+5 Clock is a timer application built using React and Redux that helps users manage their time efficiently through session and break intervals. The application displays the remaining time in mm:ss format, allowing users to customize the session and break lengths. The timer can be started and paused, and a reset option is available to restore default settings.
 
-### `npm start`
+### Challenge Requirement
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The challenge required building an app similar to [this example](https://25--5-clock.freecodecamp.rocks). The following user stories were fulfilled:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Display elements indicating the session and break lengths.
+2. Buttons to increment and decrement both session and break lengths.
+3. Display the timer label ("Session" or "Break").
+4. Display the timer countdown in mm:ss format.
+5. Buttons to start/pause the timer and to reset the timer.
+6. Audio notification when the timer reaches zero.
+7. The ability to pause the timer and then resume where it left off.
+8. The timer to transition between session and break phases automatically.
 
-### `npm test`
+### Implementation Details
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The project is built using React and Redux, enabling efficient state management and reactivity. The countdown timer is implemented using Redux actions and interval updates. Users can customize the session and break lengths within predefined limits. When the timer reaches zero, an audio notification plays, and the timer transitions between session and break phases seamlessly.
 
-### `npm run build`
+### Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React
+- Redux
+- Bootstrap (for styling)
+- Font Awesome (for icons)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Example
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[Clock 25+5](https://github.com/rijadhmz/Clock-25-plus-5/blob/secondary/images/example.png?raw=true)
 
-### `npm run eject`
+### Project URL
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To interact with the deployed project, visit my [Codepen Project](https://codepen.io/rijadhmz/pen/rNQoeWQ).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project showcases the integration of React and Redux to create a timer application that helps users manage their time effectively using the Pomodoro Technique. It offers customizable session and break lengths, audio notifications, and automatic phase transitions.
