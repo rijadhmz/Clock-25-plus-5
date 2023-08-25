@@ -33,7 +33,7 @@ The project is built using React and Redux, enabling efficient state management 
 
 ### Example
 
-[Clock 25+5](https://github.com/rijadhmz/Clock-25-plus-5/blob/secondary/images/example.png?raw=true)
+![Clock 25+5](https://github.com/rijadhmz/Clock-25-plus-5/blob/secondary/images/example.png?raw=true)
 
 ### Project URL
 
